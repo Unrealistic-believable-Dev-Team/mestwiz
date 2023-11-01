@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mestwiz.config.api.entities\mestwiz.config.api.entities.csproj" />
+    <ProjectReference Include="..\mestwiz.config.data.access\mestwiz.config.data.access.csproj" />
+    <ProjectReference Include="..\mestwiz.config.data.controller\mestwiz.config.data.controller.csproj" />
+  </ItemGroup>
+
+</Project>

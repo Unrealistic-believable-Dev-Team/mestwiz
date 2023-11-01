@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.api", "mestwiz.config.api\mestwiz.config.api.csproj", "{3D9833FE-B9F2-4F23-B5D2-0D0BEEB96D33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.data.access", "mestwiz.config.data.access\mestwiz.config.data.access.csproj", "{DF7A391D-352A-4AFA-A0F7-53D1D0DB888F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.data.controller", "mestwiz.config.data.controller\mestwiz.config.data.controller.csproj", "{B018E606-5EFA-448E-BB5A-03BEB8E9CC18}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.api.entities", "mestwiz.config.api.entities\mestwiz.config.api.entities.csproj", "{4362EDDB-D5E7-4D15-B849-04A90F8B35C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.api.logic", "mestwiz.config.api.logic\mestwiz.config.api.logic.csproj", "{50E8D58A-3271-428D-B499-0A8554B8370C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mestwiz.config.data.entities", "mestwiz.config.data.entities\mestwiz.config.data.entities.csproj", "{2B51F994-57A5-4D87-BD36-BBED8A342464}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D9833FE-B9F2-4F23-B5D2-0D0BEEB96D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9833FE-B9F2-4F23-B5D2-0D0BEEB96D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9833FE-B9F2-4F23-B5D2-0D0BEEB96D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9833FE-B9F2-4F23-B5D2-0D0BEEB96D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7A391D-352A-4AFA-A0F7-53D1D0DB888F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7A391D-352A-4AFA-A0F7-53D1D0DB888F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7A391D-352A-4AFA-A0F7-53D1D0DB888F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7A391D-352A-4AFA-A0F7-53D1D0DB888F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B018E606-5EFA-448E-BB5A-03BEB8E9CC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B018E606-5EFA-448E-BB5A-03BEB8E9CC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B018E606-5EFA-448E-BB5A-03BEB8E9CC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B018E606-5EFA-448E-BB5A-03BEB8E9CC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4362EDDB-D5E7-4D15-B849-04A90F8B35C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4362EDDB-D5E7-4D15-B849-04A90F8B35C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4362EDDB-D5E7-4D15-B849-04A90F8B35C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4362EDDB-D5E7-4D15-B849-04A90F8B35C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E8D58A-3271-428D-B499-0A8554B8370C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E8D58A-3271-428D-B499-0A8554B8370C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E8D58A-3271-428D-B499-0A8554B8370C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E8D58A-3271-428D-B499-0A8554B8370C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B51F994-57A5-4D87-BD36-BBED8A342464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B51F994-57A5-4D87-BD36-BBED8A342464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B51F994-57A5-4D87-BD36-BBED8A342464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B51F994-57A5-4D87-BD36-BBED8A342464}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {815D0F11-9D58-4A8D-A53B-FF12A13FFC6B}
+	EndGlobalSection
+EndGlobal

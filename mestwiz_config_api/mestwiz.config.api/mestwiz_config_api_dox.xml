@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>mestwiz.config.api</name>
+    </assembly>
+    <members>
+        <member name="T:mestwiz.config.api.Controllers.ApiEndPointController">
+            <summary>
+            Api para Endpoints de Apis Externas o internas.
+            </summary>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.ApiEndPointController.Get">
+            <summary>
+            Método para obtener el listado de Endpoints
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.ApiEndPointController.Update(mestwiz.config.data.entities.ApiEndPoint)">
+            <summary>
+            Actualiza un Elemento
+            </summary>
+            <param name="apiEndPoint"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.ApiEndPointController.Add(mestwiz.config.data.entities.ApiEndPoint)">
+            <summary>
+            Agrega un Elemento
+            </summary>
+            <param name="apiEndPoint"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.ApiEndPointController.Delete(System.String)">
+            <summary>
+            Elimina un Elemento
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:mestwiz.config.api.Controllers.AuthController">
+            <summary>
+            Api para Autenticación del Usuario
+            </summary>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.AuthController.Login(mestwiz.config.api.entities.Auth.UserLogin)">
+            <summary>
+            Create Session for User
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.AuthController.Logout(System.String)">
+            <summary>
+            Delete Session from User by Session ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.AuthController.Prueba(mestwiz.config.api.entities.Auth.UserLogin)">
+            <summary>
+            Test Method For Auth
+            </summary>
+            <param name="userLogin"></param>
+            <returns></returns>
+        </member>
+        <member name="T:mestwiz.config.api.Controllers.PermisionXRoleController">
+            <summary>
+            Controlador para Permisos del Rol
+            </summary>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.PermisionXRoleController.Get(System.Int32)">
+            <summary>
+            Obtiene el Permiso por Rol de acuerdo al Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.PermisionXRoleController.GetByRoleId(System.Int32)">
+            <summary>
+            Obtiene el Permiso por Rol de acuerdo al Id del rol
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.PermisionXRoleController.GetByPermissionId(System.Int32)">
+            <summary>
+            Obtiene los Permisos por rol de acuerdo al Id de permiso
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.PermisionXRoleController.GetByPermissionAndRoleId(System.Int32,System.Int32)">
+            <summary>
+            Obtiene los Permisos por rol de acuerdo al Id de Permiso e Id de Rol
+            </summary>
+            <param name="perm_id"></param>
+            <param name="role_id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:mestwiz.config.api.Controllers.SessionXUserController">
+            <summary>
+            Controlador de Sesiones del Usuario
+            </summary>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.SessionXUserController.Session(System.String)">
+            <summary>
+            Obtiene la Sesión de usuario de acuerdo al Id de Sesión,
+            Se válida que el host de donde se hace la solicitud
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.SessionXUserController.UserSession(System.String)">
+            <summary>
+            Obtiene la Sesión de usuario de acuerdo al Id de Usuario,
+            Se válida que el host de donde se hace la solicitud
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.UserController.Get(System.String)">
+            <summary>
+            Obtiene usuario por su ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.UserController.Get">
+            <summary>
+            Obtiene lista de Usuarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.UserController.GetMenu(System.String)">
+            <summary>
+            Obtiene el Menu para el usuario
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:mestwiz.config.api.Controllers.UsuarioController.Get(System.String)">
+            <summary>
+            Obtiene usuario por su ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
